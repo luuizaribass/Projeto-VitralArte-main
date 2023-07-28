@@ -18,33 +18,295 @@ img {
     height: auto;
 }
 
+ .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 200px;
+    flex-wrap: wrap;
+}
+
  /* FIM RESET CSS */
 
 #header {
     background-color: #106EEA;
 }
 
-#header p {
+#header .container {
     display: flex;
-    justify-content: center;
+    justify-content: left;
     color: white;
 }
 
-.container .menu a {
-    font: 300 25px 'Open Sans', sans-serif;
+#header .container p {
+    display: flex;
+    color: white;
+    margin: 5px 150px 5px 0px;
 }
+
+ /* MAIN */
 
 #main .container {
     display: flex;
+    color: white;
 }
 
-#main h1 {
+#main .container p {
     font: 300 25px 'Poppins', sans-serif;
     display: flex;
-    width: 398px;
-    height: 109px;
-    top: 49px;
-    left: 129px;
-
+    color: white;
+    margin: 5px;
 }
 
+#main .container .logo h1 {
+    font: 300 30px 'Poppins', sans-serif;
+    display: flex;
+    margin: 10px;
+    color: black;
+}
+
+#main .container .menu a {
+    font: 200 15px 'Open Sans', sans-serif;
+    color: black;
+}
+
+#main .container .menu .item {
+    margin-left: 85px;
+}
+
+ /* FIM MAIN */
+
+ /* SECTION PRIMEIRA */
+
+.section .vitral {
+    margin:-325px 50px 300px 800px;
+}
+.section .vitral h1 {
+    font: 400 45px 'Poppins', sans-serif;
+    text-align: center;
+}
+.section .vitral p {
+    font: 400 30px 'Poppins', sans-serif;
+    text-align: center;
+}
+
+.primeira .colores {
+    font: 400 20px 'Roboto', sans-serif;
+    padding: 0px 50px;
+    margin-top: 200px;
+    display:block;
+}
+
+.primeira .colores .h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 12px 0px;
+}
+
+.primeira .colores .h1 .colors {
+    color: #106EEA;
+    margin-left: 10px;
+}
+
+
+.primeira .colores .texto{
+    text-align: justify;
+    width: 500px;
+    line-height: 30px;
+}
+
+.primeira .sobrenos {
+    display: flex;
+}
+
+.primeira .equipe {
+    margin: 20px 40px;
+}
+
+ /* FIM SECTION PRIMEIRA */
+
+ /* SECTION SEGUNDA CAIXA AZUL*/
+
+.segunda .caixa .texto {
+    font: 100 15px 'Roboto', sans-serif;
+}
+
+.segunda .caixas {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    margin-top: 90px;
+}
+
+.segunda .caixas .imagem img {
+    width: 60px;
+    height: auto;
+    padding-bottom: 20px;
+}
+
+.segunda .caixa {
+    border: 1px solid #8CA9CE;
+    border-radius: 10px;
+    text-align: center;
+    padding: 15px 20px;
+    width: 200px;
+    height: 170px;
+    margin: 0px 30px;
+    background-color: #F1F6FE;
+}
+
+/* FIM SECTION SEGUNDA */
+
+/* SECTION TERCEIRA */
+
+.terceira .colores {
+    font: 400 20px 'Roboto', sans-serif;
+    padding: 0px 50px;
+    margin-top: 200px;
+    display:block;
+}
+
+.terceira .colores .h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 12px 0px;
+}
+
+.terceira .colores .h1 .colors {
+    color: #106EEA;
+    margin-left: 10px;
+}
+
+
+.terceira .colores .texto{
+    text-align: justify;
+    width: 500px;
+    line-height: 30px;
+}
+
+terceira .sobrenos {
+    display: flex;
+}
+
+.terceira .caixas {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    margin-top: 70px;
+}
+
+.terceira .caixa {
+    border: 1px solid #8CA9CE;
+    border-radius: 10px;
+    text-align: center;
+    padding: 30px 50px;
+    width: 220px;
+    height: 110px;
+    background-color: #ffffff;
+}
+
+.terceira .caixaa {
+    border: 1px solid #8CA9CE;
+    border-radius: 10px;
+    text-align: center;
+    padding: 50px 40px;
+    width: 220px;
+    height: 110px;
+    background-color: #ffffff;
+}
+
+/* FIM SECTION TERCEIRA */
+
+.linha-la {
+    background-color: #1150A3;
+    height: 2px;
+    margin: 100px 0px;
+}
+
+.linha-le {
+    background-color: #FF912D;
+    height: 1px;
+    margin: 20px 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* FOOTER */
+#footer {
+    background-color: #1150A3;
+}
+
+.footer .container {
+    justify-content: space-around;
+} 
+.footer .container .menuredes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px 0;
+}
+
+.footer .container .menuredes a {
+    color: white;
+}
+
+.redes .logos img {
+    width: 50px;
+    height: auto;
+}
+
+.redes .titulo {
+    font: 500 30px 'Open-Sans Regular', sans-serif ;
+    color: white;
+}
+
+/* FIM FOOTER */
